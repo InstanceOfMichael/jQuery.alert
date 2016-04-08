@@ -14,3 +14,14 @@ $('body')
 
 $.fn.alert('Hey!');
 ```
+
+Here is an example without semicolons:
+
+```
+$('body')
+    .alert('Alert!')
+    .confirm('Alert you sure you want to do this?')
+    .prompt('Whats your favorite Italian dish?')
+
+$.fn.alert('Hey!')
+```
